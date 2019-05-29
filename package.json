@@ -6,8 +6,6 @@
   "scripts": {
     "build": "babel src -d lib",
     "dev": "npm run storybook",
-    "docs": "npx styleguidist server",
-    "docs:build": "npx styleguidist build",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "jest",
     "test:watch": "jest --watch"
@@ -22,10 +20,10 @@
   "author": "Ryosuke",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-options": "^5.0.11",
     "@storybook/react": "^5.0.11",
-    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.6",
